@@ -1,9 +1,11 @@
 # Projects
 
-! This is a Repo for saving project related code
+! This Repo Stores Full Stack Web Apps
 
-1 : FrontEnd - React , MUI , Redux , Formik , Yup
-2 : BackEnd - 1 : Mongodb
-                  -- used mongodb apis
-              2 : MS SQL
-                  -- used sql api queries
+Industry standards followed
+
+1 : Clean code
+2 : Folder Structure
+3 : Type safty and clearity
+4 : Version controls 
+5 : Git branch management
