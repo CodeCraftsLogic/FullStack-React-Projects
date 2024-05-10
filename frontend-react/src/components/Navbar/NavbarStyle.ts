@@ -1,3 +1,5 @@
+import { Height } from "@mui/icons-material";
+import { width } from "@mui/system";
 
 const navStyle = {
     imgDesktop: {
@@ -14,22 +16,24 @@ const navStyle = {
         color: 'black',
         textDecoration: 'none',
         warp: 'noWrap',
-        border: 'solid 2px black'
+        
     },
     hamburger: {
         flexGrow: 1,
         display: { xs: 'flex', md: 'none' },
-        border: 'solid 2px green',
-        justifyContent: 'flex-end' 
+        
+        justifyContent: 'flex-end'
     },
     menu: {
         display: { xs: 'block', md: 'none' },
-        border: 'solid 2px black'
+        
+        height: '50vh',
+        width: '50vw'
     },
     imgMobile: {
         display: { xs: 'flex', md: 'none' },
         mr: 1,
-        
+
     },
     logoMobile: {
         mr: 2,
@@ -41,29 +45,29 @@ const navStyle = {
         color: 'black',
         textDecoration: 'none',
         wrap: 'noWrap',
-        border: 'solid 2px black'
+
     },
     navDesktop: {
         flexGrow: 1,
         display: { xs: 'none', md: 'flex' },
     },
     navDesktopButtons: {
-        my: 2, 
-        color: 'black', 
+        my: 2,
+        color: 'black',
         display: 'block',
-        border:'solid 2px black',
         transition: 'background-color 0.3s ease-in-out',
         '&:hover': {
-            color: 'rgba(0, 0, 139, 0.8)',
+            backgroundColor: '#fff',
+            color: '#3c52b2',
         },
     },
-    iconButton:{
+    iconButton: {
         p: 0,
-    
-        color:'black'
+
+        color: 'black'
     },
-    container:{
-        border:'solid 2px white',background:'white'
+    container: {
+        background: 'white'
     }
 }
 
